@@ -1,10 +1,28 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  useEffect(() => {
+    const closeMenu = (e) => {
+      if (menuOpen && 
+          !e.target.closest(`.${styles.menuItems}`) && 
+          !e.target.closest(`.${styles.menuBtn}`)) {
+        setMenuOpen(false);
+      }
+    };
+
+    if (menuOpen) {
+      window.addEventListener('click', closeMenu);
+    }
+
+    return () => {
+      window.removeEventListener('click', closeMenu);
+    };
+  }, [menuOpen]);
 
   return (
     <nav className={styles.navbar}>

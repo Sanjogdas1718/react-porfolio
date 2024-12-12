@@ -17,7 +17,6 @@
   color: var(--color-text);
 }
 
-
 .menuBtn {
   display: none;
 }
@@ -30,12 +29,30 @@
   display: flex;
   gap: 47px;
   list-style: none;
+  align-items: center;
+}
+
+.menuItems li {
+  display: flex;
+  align-items: center;
 }
 
 .menuItems a {
+  -webkit-tap-highlight-color: transparent;
   font-size: 25px;
   color: var(--color-text);
   text-decoration: none;
+  padding: 8px 12px;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.menuItems a:hover,
+.menuItems a:focus {
+  color: #add8e6;
+  background-color: rgba(25, 55, 109, 0.1);
+  outline: none;
 }
 
 @media screen and (max-width: 830px) {
@@ -65,18 +82,38 @@
     align-items: center;
     gap: 13px;
     border-radius: 10px;
-    background: rgb(25, 55, 109);
     background: linear-gradient(
       0deg,
-      rgba(25, 55, 109, 0.2) 0%,
+      rgba(25, 55, 109, 1) 0%,
       rgba(25, 55, 109, 1) 100%
     );
     padding: 24px 33px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+    width: 100%;
   }
 
   .menuOpen {
     display: flex;
     z-index: 1;
+  }
+
+  .menuItems li {
+    width: 100%;
+  }
+
+  .menuItems a {
+    color: white;
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+
+  .menuItems a:hover,
+  .menuItems a:focus,
+  .menuItems a:active {
+    color: #add8e6;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 8px;
+    outline: none;
   }
 }
