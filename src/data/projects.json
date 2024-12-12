@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Multimodal - Research Assistant",
+    "imageSrc": "projects/mra.png",
+    "description": "This project is all about integrating different AI models to handle audio, images, and PDFs in a single chat interface",
+    "skills": ["Python", "SQL", "VS Code"],
+    "source": "https://github.com/Sanjogdas1718/local_multimodal_ai_chat"
+  },
+  {
+    "title": "Object Detection",
+    "imageSrc": "projects/iot.png",
+    "description": "This is an object detection project using Raspberry Pi 3 B+ and Raspberry Pi Camera, integrating TensorFlow Lite and OpenCV for real-time image processing.",
+    "skills": ["Python", "Raspberry Pi", "VS Code"],
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Securing a Small Business Network",
+    "imageSrc": "projects/cs1.png",
+    "description": "Highlighted and explained network security and threats to small business networks. Discussed mitigating methods for cyber threats and best cybersecurity practices.",
+    "skills": ["Case Study","Team Work" ],
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Car Game",
+    "imageSrc": "projects/cff.png",
+    "description": "This is simple car game made for the sole purpose of fun and entertainment",
+    "skills": ["HTML","CSS","Javascript","VS Code" ],
+    "source": "https://sanjogdas1718.github.io/Cargame.io/"
+  }
+]

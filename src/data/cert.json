@@ -1,0 +1,17 @@
+[
+    {
+      "organisation": "HackerRank",
+      "certifications": ["Java", "Python", "SQL"],
+      "imageSrc": "certifications/hackerBhai.png"
+    },
+    {
+      "organisation": "EY",
+      "certifications": ["CyberSecurity Training Certification"],
+      "imageSrc": "certifications/sucidePro.png"
+    },
+    {
+      "organisation": "Udemy",
+      "certifications": ["Complete 3D Blender"],
+      "imageSrc": "certifications/udemy-logo.png"
+    }
+  ]

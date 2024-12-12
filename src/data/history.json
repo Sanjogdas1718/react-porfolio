@@ -1,0 +1,30 @@
+[
+  {
+    "role": "CyberSecurity Training ",
+    "organisation": "EY",
+    "startDate": "Oct, 2023",
+    "endDate": "Nov, 2023",
+    "experiences": ["Learned about cloud computing, networking and cyptography.", "Gained insights about how to use tools like nmap and wireshark."],
+    "imageSrc": "history/eyl.png"
+  },
+  {
+    "role": "Tech.Talk Webinar Series",
+    "organisation": "Deloitte",
+    "startDate": "July, 2023",
+    "endDate": "July, 2023",
+    "experiences": ["Engaged in sessions about new and emerging technologies across Asia Pacific."],
+    "imageSrc": "history/deloitte-logo.png"
+  },
+  {
+    "role": "Introductory Data Science",
+    "organisation": "TENSOR (A Lejhro L&D Unit)",
+    "startDate": "Apr, 2021",
+    "endDate": "Apr, 2021",
+    "experiences": [
+      "participated in workshop on Business Analytics and Machine Learning.",
+      "Gained insights on the benefits of business analytics."
+    ],
+    "imageSrc": "history/tensor.png"
+  }
+  
+]
