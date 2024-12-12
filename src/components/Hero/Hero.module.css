@@ -107,22 +107,34 @@
 
   .content {
     align-items: flex-start;
+    width: 100%;
   }
 
   .title {
-    font-size: 48px;
+    font-size: clamp(40px, 8vw, 56px);
     text-align: left;
     display: flex;
     flex-direction: column;
     line-height: 1.2;
+    width: 100%;
   }
 
   .title br {
     content: "";
-    margin-bottom: 10px;
+    margin-bottom: 0.5em;
+  }
+
+  .description {
+    font-size: clamp(24px, 5vw, 34px);
   }
 
   .heroImg {
     width: 50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: clamp(36px, 7vw, 40px);
   }
 }
