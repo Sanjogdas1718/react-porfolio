@@ -11,14 +11,14 @@
     "imageSrc": "projects/iot.png",
     "description": "This is an object detection project using Raspberry Pi 3 B+ and Raspberry Pi Camera, integrating TensorFlow Lite and OpenCV for real-time image processing.",
     "skills": ["Python", "Raspberry Pi", "VS Code"],
-    "source": "https://www.github.com"
+    "source": "https://drive.google.com/drive/folders/1Pg8cxnONHRpQ5KaGLX4owTr5yTFMP9f2?usp=sharing"
   },
   {
     "title": "Securing a Small Business Network",
     "imageSrc": "projects/cs1.png",
     "description": "Highlighted and explained network security and threats to small business networks. Discussed mitigating methods for cyber threats and best cybersecurity practices.",
     "skills": ["Case Study","Team Work" ],
-    "source": "https://www.github.com"
+    "source": "https://drive.google.com/file/d/1SivjsCZ-V-yLan40mSRp4NARrU7HOqUB/view?usp=sharing"
   },
   {
     "title": "Car Game",
