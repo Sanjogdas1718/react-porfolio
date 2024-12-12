@@ -44,6 +44,9 @@
   font-size: 30px;
   font-weight: 400;
   letter-spacing: 1.5px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
 }
 
 @media screen and (max-width: 830px) {
@@ -85,6 +88,8 @@
   }
 
   .link a {
+    flex-direction: column;
+    gap: 8px;
     font-size: 14px;
   }
 }
