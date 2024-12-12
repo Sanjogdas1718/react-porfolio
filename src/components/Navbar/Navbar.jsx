@@ -24,6 +24,16 @@ export const Navbar = () => {
     };
   }, [menuOpen]);
 
+  const handleMenuToggle = () => {
+    if (menuOpen) {
+      setTimeout(() => {
+        setMenuOpen(false);
+      }, 300);
+    } else {
+      setMenuOpen(true);
+    }
+  };
+
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="/">
@@ -38,11 +48,10 @@ export const Navbar = () => {
               : getImageUrl("nav/menuIcon.png")
           }
           alt="menu-button"
-          onClick={() => setMenuOpen(!menuOpen)}
+          onClick={handleMenuToggle}
         />
         <ul
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
-          onClick={() => setMenuOpen(false)}
         >
           <li>
             <a href="#about">About</a>
@@ -50,7 +59,6 @@ export const Navbar = () => {
           <li>
             <a href="#experience">Skills & Training</a>
           </li>
-
           <li>
             <a href="#certifications">Certifications</a>
           </li>
